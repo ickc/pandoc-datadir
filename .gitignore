@@ -1,0 +1,3 @@
+csl/*.csl
+!csl/apa-6th-edition-custom.csl
+filters/
