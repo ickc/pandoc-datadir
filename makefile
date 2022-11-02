@@ -1,4 +1,4 @@
-.PHONY: install filters csl
+.PHONY: install filters csl diff
 install: filters csl
 
 filters: filters/multiple-bibliographies.lua
@@ -22,3 +22,6 @@ csl/chicago-author-date.csl:
 	mkdir -p $(@D)
 	rm -f $@
 	cd $(@D); wget https://github.com/citation-style-language/styles/raw/master/chicago-author-date.csl
+
+diff:
+	difft csl/apa-6th-edition.csl csl/apa-6th-edition-custom.csl

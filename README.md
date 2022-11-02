@@ -31,6 +31,6 @@ make install
 
 # Notes
 
-`apa-6th-edition-custom.csl` is modified from `apa-6th-edition.csl` to change the sort orders, etc. See `difft csl/apa-6th-edition.csl csl/apa-6th-edition-custom.csl` for the differences.
+`apa-6th-edition-custom.csl` is modified from `apa-6th-edition.csl` to change the sort orders, etc. See `make diff` for the differences.
 
 This has to be manually updated if `apa-6th-edition.csl` is updated upstream.
