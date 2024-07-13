@@ -2,7 +2,7 @@
 install: filters csl
 
 filters: filters/multiple-bibliographies.lua
-csl: csl/chicago-annotated-bibliography.csl csl/apa-6th-edition.csl csl/chicago-author-date.csl
+csl: csl/chicago-annotated-bibliography.csl csl/apa-6th-edition.csl csl/chicago-author-date.csl csl/the-astrophysical-journal.csl
 
 filters/multiple-bibliographies.lua:
 	mkdir -p $(@D)
