@@ -7,7 +7,7 @@ csl: csl/chicago-annotated-bibliography.csl csl/apa-6th-edition.csl csl/chicago-
 filters/multiple-bibliographies.lua:
 	mkdir -p $(@D)
 	rm -f $@
-	cd $(@D); wget https://github.com/pandoc/lua-filters/raw/master/multiple-bibliographies/multiple-bibliographies.lua
+	cd $(@D); wget https://raw.githubusercontent.com/pandoc/lua-filters/master/multiple-bibliographies/multiple-bibliographies.lua
 	chmod +x $@
 
 csl/%.csl:
